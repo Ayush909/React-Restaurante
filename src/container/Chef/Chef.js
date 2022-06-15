@@ -14,7 +14,27 @@ const Chef = () => {
         <SubHeading title="Chef's Word"/>
         <h1 className="headtext__cormorant">What we believe in</h1>
 
-        div.app__chef_
+        <div className={classes.app__chef_content}>
+          <div className={classes.app__chef_quote}>
+            <img src={images.quote} alt="quote" />
+            <p className="p__opensans">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor.
+            </p>
+          </div>
+
+          <p className="p__opensans">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni modi delectus quibusdam doloremque expedita incidunt possimus quam inventore similique minima dolorem et, deserunt corrupti sunt recusandae repudiandae assumenda ratione quo.
+          </p>
+        </div>
+
+        <div className={classes.app__chef_sign}>
+          <p >John Doe</p>
+          <p className="p__opensans">Chef & Founder</p>
+
+          <img src={images.sign} alt="chef_sign" />
+        </div>
+        
+
       </div>
     </div>
   )
