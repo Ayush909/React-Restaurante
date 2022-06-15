@@ -7,7 +7,7 @@ import MenuItem from '../../components/Menuitem/MenuItem';
 
 const SpecialMenu = () => {
   return (
-    <div className={`${classes.app__specialMenu} flex__center section__padding`}>
+    <div className={`${classes.app__specialMenu} flex__center section__padding`} id="menu">
       <div className={classes.app_specialMenu_title}>
         <SubHeading title="Menu that fits you Palatte"/>
         <h1 className="headtext__cormorant">Today's Special</h1>
