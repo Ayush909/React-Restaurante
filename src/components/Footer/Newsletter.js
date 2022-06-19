@@ -5,7 +5,7 @@ import classes from './Newsletter.module.css';
 
 
 const Newsletter = () => (
-  <div className={classes.app__newsletter}>
+  <div className={`${classes.app__newsletter}   `}>
     <div className={classes.app__newsletter_heading}>
       <SubHeading title="Newsletter"/>
       <h1 className='headtext__cormorant'>Subscribe to our Newsletter</h1>
