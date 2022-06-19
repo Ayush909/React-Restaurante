@@ -1,6 +1,6 @@
 import React from 'react'
 import {FiFacebook,FiInstagram,FiTwitter} from 'react-icons/fi'
-import {Newsletter,FooterOverlay} from '../../components'
+import {Newsletter} from '../../components'
 import images from '../../constants/images'
 import classes from './Footer.module.css'
 

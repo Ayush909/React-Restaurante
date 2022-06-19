@@ -1,7 +1,7 @@
 import React,{useRef} from 'react'
 import classes from './Gallery.module.css'
 import { SubHeading } from '../../components'
-import {data,images} from '../../constants'
+import {images} from '../../constants'
 import {BsArrowLeftShort,BsArrowRightShort,BsInstagram} from 'react-icons/bs'
 
 
